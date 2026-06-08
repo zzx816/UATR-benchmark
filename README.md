@@ -17,26 +17,30 @@ code for "Deep Learning for Underwater Acoustic Target Recognition: A Comprehens
 - **输出格式**：比如“先总览，再分点，再给阅读顺序”
 
 ### 3) 可直接复制的提示词（已按本仓库目录定制）
+- 先定义两个占位符，后面的模板直接复用：  
+  - `<repo_root_absolute_path>`：仓库绝对路径（示例：`/home/user/projects/UATR-benchmark` 或 `C:\Users\user\UATR-benchmark`）  
+  - `<methods_dir_name>`：`Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions`
 
 #### A. 仓库总览
-请只读，不修改任何文件。基于 `/tmp/workspace/zzx816/UATR-benchmark` 给我一个新手友好的仓库总览：  
+请只读，不修改任何文件。基于 `<repo_root_absolute_path>`（例如你本地仓库绝对路径）给我一个新手友好的仓库总览：  
 1. 顶层目录作用  
-2. `Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions` 下各子目录（如 `AMNet`、`CMOE`、`DINOV2`、`MFCC+RACNN`、`UATC-Densenet`）各自做什么  
+2. `<methods_dir_name>` 下各子目录（如 `AMNet`、`CMOE`、`DINOV2`、`MFCC+RACNN`、`UATC-Densenet`）各自做什么  
 3. 每个方法目录里 `train.py`、`test.py`、`model.py`、`dataset.py` 的职责  
 最后给我一个从易到难的阅读顺序。
 
 #### B. 单模块精读（示例：AMNet）
-请只分析 `/tmp/workspace/zzx816/UATR-benchmark/Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions/AMNet`，不要修改代码。  
+请只分析  
+`<repo_root_absolute_path>/<methods_dir_name>/AMNet`，不要修改代码。  
 按文件说明职责、主要类/函数、输入输出、依赖关系；最后给我这个模块最小执行路径（从数据到模型到训练/测试）的文字版流程。
 
 #### C. 调用链追踪（示例：训练流程）
 请从  
-`/tmp/workspace/zzx816/UATR-benchmark/Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions/AMNet/train.py`  
+`<repo_root_absolute_path>/<methods_dir_name>/AMNet/train.py`  
 开始，追踪训练阶段的关键调用链（函数名 + 所在文件），按执行顺序解释每一步做了什么、依赖哪些配置或数据。
 
 #### D. 边读边学（文件逐段解释）
 请逐段讲解  
-`/tmp/workspace/zzx816/UATR-benchmark/Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions/DINOV2/model.py`，不要改代码。  
+`<repo_root_absolute_path>/<methods_dir_name>/DINOV2/model.py`，不要改代码。  
 每段都回答：这段在解决什么问题？输入输出是什么？和前后段怎么衔接？有哪些容易踩坑的点？
 
 ### 4) 建议学习节奏
