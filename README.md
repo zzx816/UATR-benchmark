@@ -19,7 +19,7 @@ code for "Deep Learning for Underwater Acoustic Target Recognition: A Comprehens
 ### 3) 可直接复制的提示词（已按本仓库目录定制）
 - 先定义两个占位符，后面的模板直接复用：  
   - `<repo_root_absolute_path>`：仓库绝对路径（示例：`/home/user/projects/UATR-benchmark` 或 `C:\Users\user\UATR-benchmark`）  
-  - `<methods_dir_path>`：相对仓库根目录的子目录名，取值为 `Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions`  
+  - `<methods_dir_path>`：相对仓库根目录的子目录名，取值为 `Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions`（这是仓库当前真实目录名）  
   - 路径中有空格时，建议在命令或提示词中整体加反引号或引号。
 
 #### A. 仓库总览
