@@ -19,11 +19,11 @@ code for "Deep Learning for Underwater Acoustic Target Recognition: A Comprehens
 ### 3) 可直接复制的提示词（已按本仓库目录定制）
 - 先定义两个占位符，后面的模板直接复用：  
   - `<repo_root_absolute_path>`：仓库绝对路径（示例：`/home/user/projects/UATR-benchmark` 或 `C:\Users\user\UATR-benchmark`）  
-  - `<methods_dir_path>`：`Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions`  
+  - `<methods_dir_path>`：相对仓库根目录的子目录名，取值为 `Deep Learning for Underwater Acoustic Target Recognition A Comprehensive Review, Benchmarking and Future Directions`  
   - 路径中有空格时，建议在命令或提示词中整体加反引号或引号。
 
 #### A. 仓库总览
-请只读，不修改任何文件。基于 `<repo_root_absolute_path>`（例如你本地仓库绝对路径）给我一个新手友好的仓库总览：  
+请只读，不修改任何文件。基于 `<repo_root_absolute_path>` 给我一个新手友好的仓库总览：  
 1. 顶层目录作用  
 2. `<methods_dir_path>` 下各子目录（如 `AMNet`、`CMOE`、`DINOV2`、`MFCC+RACNN`、`UATC-Densenet`）各自做什么  
 3. 每个方法目录里 `train.py`、`test.py`、`model.py`、`dataset.py` 的职责  
